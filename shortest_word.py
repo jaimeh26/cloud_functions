@@ -8,3 +8,5 @@ def find_shortest_word(request):
     shortest_word = min(words, key=len)
 
     return {'shortest_word': shortest_word}
+
+# Trigger URL https://us-central1-certain-beach-391616.cloudfunctions.net/shortest_word
