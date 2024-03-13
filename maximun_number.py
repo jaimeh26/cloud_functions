@@ -8,3 +8,5 @@ def find_max_number(request):
     max_number = max(numbers)
 
     return {'max_number': max_number}
+
+# Trigger URL https://us-central1-certain-beach-391616.cloudfunctions.net/maximum_number
