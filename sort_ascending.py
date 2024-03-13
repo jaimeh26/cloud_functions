@@ -8,3 +8,5 @@ def sort_list_ascending(request):
     sorted_numbers = sorted(numbers)
 
     return {'sorted_numbers': sorted_numbers}
+
+# Trigger URL https://us-central1-certain-beach-391616.cloudfunctions.net/sort
