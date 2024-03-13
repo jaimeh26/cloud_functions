@@ -8,3 +8,5 @@ def find_longest_word(request):
     longest_word = max(words, key=len)
 
     return {'longest_word': longest_word}
+
+# Trigger URL https://us-central1-certain-beach-391616.cloudfunctions.net/longest_word
